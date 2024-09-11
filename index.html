@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kalinga Fellowship</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="nav-wrap">
+      <nav class="navbar">
+        <div class="logo">
+          <img src="Kalinga-logo.png" alt="Kalinga Fellowship Logo" />
+        </div>
+        <ul class="nav-links">
+          <li><a href="#">Human Trafficking</a></li>
+          <li><a href="#">The Movement</a></li>
+          <li><a href="#">Stories</a></li>
+          <li><a href="#" class="pledge-button">Pledge</a></li>
+        </ul>
+        <div class="social-icons">
+          <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#"><i class="fa-brands fa-twitter"></i></a>
+          <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+        </div>
+      </nav>
+    </div>
+
+    <section class="hero">
+      <h1>
+        HUMAN<br />
+        TRAFFICKING
+      </h1>
+      <div class="inner">
+        <p>
+          18 million people never slept <br />
+          in their own beds again.
+        </p>
+        <img src="hero.png" alt="Mat Image" />
+      </div>
+    </section>
+    <section class="first-responder-wrapper">
+      <div class="first-responder">
+        <h2>First Responder Movement</h2>
+        <p>
+          Human trafficking is a plague that has systemically affected
+          vulnerable communities in India for decades, and continues to do so.
+          Kalinga Fellowship’s First Responder Movement stems from the belief
+          that human trafficking can end when people of society come together to
+          become more aware of the problem, and learn to recognise the signs of
+          human trafficking.
+        </p>
+        <button>become a first responder</button>
+        <img src="hands.png" alt="" />
+      </div>
+    </section>
+    <section class="slider-wrapper">
+      <div class="slider">
+        <h2>
+          India has twice as many victims of Human Trafficking than any other
+          country.
+        </h2>
+        <div class="btns">
+          <button class="true">True</button>
+          <button class="false">False</button>
+        </div>
+        <p>
+          India has 18 million modern slaves, at least 5 times more than any
+          other country.
+        </p>
+        <div class="dots">
+          <div class="dot active"></div>
+          <div class="dot"></div>
+          <div class="dot"></div>
+          <div class="dot"></div>
+        </div>
+      </div>
+    </section>
+
+    <h1 class="red-flags-title">Recognise. Respond. Report</h1>
+    <section class="red-flags">
+      <div class="card">
+        <img src="IN PUBLIC PLACE.png" alt="In public places" />
+        <h2>In public places</h2>
+        <p>Common red flags in public places</p>
+        <div class="btn">
+          <i class="fa-solid fa-chevron-right"></i>
+        </div>
+      </div>
+      <div class="card">
+        <img src="AT YOUR HOME.png" alt="At your home" />
+        <h2>At your home</h2>
+        <p>Common red flags while hiring domestic help</p>
+      </div>
+      <div class="card">
+        <img src="EMPLOYERS HOME.png" alt="Employer's home" />
+        <h2>Employer's home</h2>
+        <p>Common red flags at an employer's home</p>
+      </div>
+    </section>
+    <section class="about-wrapper">
+      <div class="about">
+        <h2>About Kalinga Fellowship</h2>
+        <p>
+          The Kalinga Fellowship is a programme that brings together progressive
+          leaders from business, government and civil society to facilitate
+          breakthroughs in thinking and action in the combatting of human
+          trafficking. Through collaboration of different stakeholders, the
+          Fellowship aims to build an ecosystem to combat the malaise of human
+          trafficking in India.
+        </p>
+        <button>learn more</button>
+      </div>
+    </section>
+    <section class="partners-wrapper">
+      <div class="partners">
+        <h2>Our Partners</h2>
+        <p>
+          Our partners enable and empower us to continue working on our vision.
+          We believe that the diversity of our partners brings different
+          perspectives and resources to the table.
+        </p>
+        <div class="partners-reel">
+          <div class="partners-reel-wrap">
+            <div class="partners-reel-item">
+              <img src="kiss.png" alt="" />
+            </div>
+            <div class="partners-reel-item">
+              <img src="TAH.png" alt="" />
+            </div>
+            <div class="partners-reel-item">
+              <img src="bridge.png" alt="" />
+            </div>
+            <div class="partners-reel-item">
+              <img src="partner-6.png" alt="" />
+            </div>
+          </div>
+        </div>
+        <button>learn more</button>
+      </div>
+    </section>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
+    <script src="https://unpkg.com/reeller@0/dist/reeller.min.js"></script>
+    <script>
+      var reeller = new Reeller.Reeller({
+        container: ".partners-reel",
+        wrapper: ".partners-reel-wrap",
+        itemSelector: ".partners-reel-item",
+        speed: 10,
+      });
+    </script>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-top">
+          <div class="footer-menu">
+            <a href="#">The Fellowship</a> | <a href="#">Resources</a> |
+            <a href="#">Partners</a> | <a href="#">Contact</a> |
+            <a href="#">Terms & Conditions</a>
+          </div>
+
+          <div class="footer-social">
+            <div>Follow Us</div>
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+          </div>
+        </div>
+        <hr />
+        <div class="copyright">Copyright &copy; 2022. Kalinga Fellowship</div>
+      </div>
+    </footer>
+  </body>
+</html>
